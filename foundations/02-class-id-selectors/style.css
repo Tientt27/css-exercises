@@ -1,0 +1,23 @@
+.odd {
+    background-color: #f1a4cf;
+    font-family: "Verdana", Sans-serif;
+    
+}
+/*in css, you can create comments using this*/
+
+#blue {
+
+    color: rgb(0,0, 255);
+    font-size: 36px;
+
+}
+
+.big {
+    font-size: 24px;
+}
+
+#green{
+    background-color: hsl(101, 91%, 47%);
+    font-size: 24px;
+    font-weight: bold;
+}
