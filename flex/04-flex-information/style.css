@@ -5,22 +5,30 @@ body {
 img {
   width: 100px;
   height: 100px;
+
+ 
+}
+
+.text{
+  text-align: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding: 50px;
 }
 
-/* do not edit this footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
+.row,  .text-row{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #eee;
+  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-inline: 100px;
 }
+
+.text-row {
+  gap: 50px;
+}
+
